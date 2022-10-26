@@ -1,0 +1,19 @@
+#include<stdio.h>
+int main() {
+    char ch;
+    printf("enter a char");
+    scanf("%c",&ch);
+    if(ch>='a' && ch<='z')
+    {
+        printf("%c is lower case alphabet");
+    }
+    else if (ch>='A' && ch<='z')
+    {
+        printf("%c is upper case alphabet");
+    }
+    else if(ch>='0' && ch<='9')
+    {
+        printf("%c is digit");
+    }
+    return 0;
+}
