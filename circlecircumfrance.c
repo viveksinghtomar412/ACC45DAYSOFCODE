@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main()
+{
+    int rad;
+    float PI = 3.14, area, ci;
+    printf("Enter the radius of the circle: ");
+    scanf("%d", &rad);
+    area = PI*rad*rad;
+    printf("Area of the circle is: %f ", area);
+    ci = 2*PI*rad;
+    return 0;
+}
