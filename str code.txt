@@ -1,0 +1,11 @@
+#include<stdio.h>
+#include<string.h>
+int main ()
+{
+    char str [30]="";
+    int 1=0;
+    printf("enter your name \n");
+    gets(str);
+    for (i=0;str[i]!='\0;i++);
+    printf("length of name is %d",i);
+}
